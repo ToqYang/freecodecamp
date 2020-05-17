@@ -3,42 +3,53 @@
 <html>
     <head>
         <title>Tribute Page</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;400;700&display=swap" rel="stylesheet"> 
     </head>
 
     <body>
         <div id="main">
-            <div id="title"></div>
+            <div id="title">
+                <h1>Dennis MacAlistair Ritchie</h1>
+                <p id="date">(September 9, 1941 – October 12, 2011)</p></div>
             <div id="img-div">
                 <figure>
                     <img id="image" 
                          src="./images/dennis.jpg" 
                          alt="Dennis writing in a computer">
                     </img>
-                    <figcaption>Dennis Ritchie together Ken Thomson at Laboratories Bell</figcaption>
-                    
-                    <div id="tribute-info">
-                        <ul>
-                            <li><p><strong>1963:</strong> Earned his bachelor's degree in Physics at Harvard.</p></li>
-                            <li><p><strong>1967:</strong> Worked on Multics operating system at MIT and Bell Laboratories.</p></li>
-                            <li><p><strong>1968:</strong> Completed his Doctorate degree in Mathematics</p></li>
-                            <li><p><strong>1969:</strong> Start to develop C programming language and, with Thompson, create the UNIX operating system.</p></li>
-                            <li><p><strong>1971:</strong> Completed C programming language</p></li>
-                            <li><p><strong>1973:</strong> Rewrote UNIX in C</p></li>
-                            <li><p><strong>1983:</strong> Got the Turing Award</p></li>
-                            <li><p><strong>1990:</strong> Head of the System Software Research Department at Bell Labs</p></li>
-                            <li><p><strong>1996:</strong> U.S. National Medal of Technology Award from President Bill Clinton for inventing UNIX and C programming language.</p></li>
-                            <li><p><strong>1983:</strong> Died October 12th, 2011 in Berkeley Heights.</p></li>
-                        </ul>
-                    </div>
-                    <p><em>When I read comments on proposals about where C should go, I often look back and give thanks that it was not developed under the advice of crowds of people from all over the world.<br>
-                        <a target="_blank" href="https://en.wikipedia.org/wiki/Dennis_Ritchie">-- Dennis Ritchie</a>
-                        </em>
-                    </p>
-
+                    <figcaption id="img-caption">Dennis Ritchie together Ken Thomson at Laboratories Bell</figcaption>
                 </figure>
             </div>
-            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+            <hr>
+
+            <div id="tribute-info">
+                <h2>Timeline</h2>
+                <ul>
+                    <li><p><strong>1963:</strong> Earned his bachelor's degree in Physics at Harvard.</p></li>
+                    <li><p><strong>1967:</strong> Worked on Multics operating system at MIT and Bell Laboratories.</p></li>
+                    <li><p><strong>1968:</strong> Completed his Doctorate degree in Mathematics.</p></li>
+                    <li><p><strong>1969:</strong> Start to develop C programming language and, with Thompson, create the UNIX operating system.</p></li>
+                    <li><p><strong>1971:</strong> Completed C programming language.</p></li>
+                    <li><p><strong>1973:</strong> Rewrote UNIX in C.</p></li>
+                    <li><p><strong>1983:</strong> Got the Turing Award.</p></li>
+                    <li><p><strong>1990:</strong> Head of the System Software Research Department at Bell Labs.</p></li>
+                    <li><p><strong>1996:</strong> U.S. National Medal of Technology Award from President Bill Clinton for inventing UNIX and C programming language.</p></li>
+                    <li><p><strong>2011:</strong> Died October 12th, 2011 in Berkeley Heights.</p></li>
+                </ul>
+            </div>
+            <hr>
+            <div id="footer">
+                <p id="phrase">
+                    <em>When I read comments on proposals about where C should go, I often look back and give thanks that it was not developed under the advice of crowds of people from all over the world.<br>
+                        <a  id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Dennis_Ritchie"><br>-- Dennis Ritchie</a>
+                    </em>
+                </p>
+            </div>
+
         </div>    
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>   
 
 </html>
