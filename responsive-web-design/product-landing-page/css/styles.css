@@ -1,0 +1,191 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+
+#header-img {
+  height: auto;
+  width: 8%;
+}
+
+
+#header {
+  display: inline-flex;
+  background-color: #ef3e3e;
+  position: fixed;
+  border-radius: 5px;
+  width: 100%;
+  top: 0%;
+}
+
+
+#logo {
+  display: inline-flex;
+  margin-left: 40px;
+}
+
+
+.nav-link, #header, #authors {
+  color: white;
+}
+
+
+#right-header {
+  width: 100%;
+}
+
+
+main {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#text {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+
+#benefitials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+.products {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.products > img {
+  height: auto;
+  width: 15%;
+}
+
+
+.products > p {
+  margin-left: 2%;
+}
+
+
+#box-video {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  resize: horizontal;
+  background-color: #ef3e3e;
+}
+
+
+#form-box {
+  display: flex;
+  margin-top: 5%;
+}
+
+
+#form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+footer {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+#submit {
+  margin-top: 2%;
+  background-color: #efe43e;
+  border-color: none;
+}
+
+
+#authors {
+  background-color: #ef3e3e;
+  border-radius: 5px;
+  text-align: end;
+  padding: 20px;
+}
+
+
+@media (max-width: 650px) {
+  body {
+      margin: 0;
+  }
+
+
+  #logo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    justify-content: center;
+  }
+
+
+  #header {
+      display: flex;
+      flex-direction: column;
+  }
+
+
+  ul {
+      display: flex;
+      flex-direction: column;
+  }
+
+
+  #box-video {
+      resize: scale-down;
+      margin-top: 40%;
+      margin-bottom: 0%;
+      background-color: white;
+  }
+
+
+  #benefitials {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 50px;
+  }
+
+
+  .products {
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-top: 5%;
+      text-align: center;
+  }
+
+
+  #text {
+      text-align: center;
+      font-size: 2vw;
+  }
+}
