@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;700&display=swap" rel="stylesheet"> 
+    <title>Documentation</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>Man Page</header>
+        <ul>
+            <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#Manpage_Sections" class="nav-link">Manpage Sections</a></li>
+            <li><a href="#Header_and_Title" class="nav-link">Header and Title</a></li>
+            <li><a href="#Sections" class="nav-link">Sections</a></li>
+            <li><a href="#Fonts" class="nav-link">Fonts</a></li>
+            <li><a href="#Paragraph" class="nav-link">Paragraph</a></li>
+            <li><a href="#References" class="nav-link">References</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <div class="text">
+                <p>The manpage is a pre-installed manual in <strong>Linux</strong> distributions.</p>
+                <p>The <strong>manpage</strong> is divide between of several manners,</p>
+                <p>but almost all follow the your schema according to the needs.</p>
+                <ul>
+                    <li>NAME</li>
+                    <li>SYNOPSIS</li>
+                    <li>EXAMPLES</li>
+                    <li>SEE ALSO</li>
+                    <li>BUGS</li>
+                    <li>AUTHOR</li>
+                </ul>
+            </div>
+            <img src="./images/Intro/printf.png" alt="man page Printf">
+        </section>
+
+        <section class="main-section" id="Manpage_Sections">
+            <header>Manpage Sections</header>
+            <div class="text">
+                <p>The man sections are created for split of a manner more ordered.</p>
+                <p> we can search effectively according with number is the mean of the man that we watch.</p>
+            </div>
+            <img src="./images/Sections/manpagesections.png" alt="man page sections">
+        </section>
+
+        <section class="main-section" id="Header_and_Title">
+            <header>Header and Title</header>
+            <div class="text">
+                <p>Make a manpage is something like to work with tags in <strong>html</strong>.</p>
+                <img src="./images/header/header.png" alt="Header">
+                <img src="./images/header/foot.png" alt="Footer">
+                <img src="./images/header/titleheader.png" alt="Title Header">
+                <br>
+                <code>.TH _PRINTF 3 "29 July 2019" "printf"</code>
+            </div>
+        </section>
+
+        <section class="main-section" id="Sections">
+            <header>Sections</header>
+            <div class="text">
+                <p>If, we want make a section, you must write <strong>.SH</strong> tag</p>
+                <img src="./images/Sections2/outputname.png" alt="Output .SH">
+                <img src="./images/Sections2/sectionheader.png" alt="Section Header">
+                <p>If, we want make a sub-section of a normal section, you write <code>.SS</code></p>
+            </div>
+            <img src="./images/Sections2/subsection.png" alt="Sub Section">
+        </section>
+
+        <section class="main-section" id="Fonts">
+            <header>Fonts</header>
+            <img src="./images/fontsout/fontsout.png" alt="Fonts Man Page">
+            <img src="./images/fontsout/outputman.png" alt="Output Man Page">
+        </section>
+
+        <section class="main-section" id="Paragraph">
+            <header>Paragraph</header>
+            <div class="text">
+                <p>The paragraph in Man Page are very important for <strong>divide text</strong> congruently.</p>
+                <img src="./images/paragraph/outparagraph.png" alt="Output Paragraph">
+                <img src="./images/paragraph/pamanpage.png" alt="Paragraph Man Page">
+                <br>
+                <code>.PP</code>
+                <code>.HP</code>
+                <code>.TP</code>
+            </div>
+        </section>
+        <section class="main-section" id="References">
+            <header>References</header>
+            <p><a href="https://www.kernel.org/doc/man-pages/">Linux Man Pages</a></p>
+        </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
