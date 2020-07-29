@@ -1,0 +1,167 @@
+html, body {
+  margin: 0px;
+  height: 100%;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+#contain-nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin: 0px;
+  background-color: white;
+}
+
+
+#navbar {
+  float: right;
+  margin-left: 0vw;
+  margin-right: 1vw;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5vw;
+  padding: 1vw 20px 1vw 20px;
+  list-style-type: none;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+li {
+  margin-right: 2rem;
+}
+
+
+#welcome-section {
+  box-sizing: content-box;
+  background-color: royalblue;
+  height: 100vh;
+}
+
+
+#principal-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  font-size: 40px;
+  color: white;
+}
+
+
+h2 {
+  margin: 0px;
+  padding: 5%;
+  background-color: #d4782898;
+  vertical-align: bottom;
+  text-align: center;
+  width: inherit;
+  height: inherit;
+  font-size: 32px;
+  color: white;
+}
+
+
+#my-projects {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #d4782898;
+}
+
+
+.project-tile {
+  padding: 80px;
+}
+
+
+.web-page {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+.txt-pro {
+  text-align: center;
+  margin: -4px 0px -3px 0px;
+  padding: 2%;
+  background-color: #0771c7;
+  border-radius: 0px 0px 10px 10px;
+  font-size: 14px;
+}
+
+
+.txt-pro > a {
+  color: white;
+}
+
+
+#about-me {
+  display: flex;
+  flex-direction: column;
+  background-color: #0771c7;
+  text-align: center;
+}
+
+
+#contact {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+#contact > p > a {
+  color: white;
+}
+
+
+h3 {
+  color: white;
+  font-size: 28px;
+}
+
+
+hr {
+  color: white;
+  height: 6%;
+  width: 100%;
+}
+
+
+#foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  #navbar {
+      float: left;
+  }
+
+
+  #principal-title {
+      font-size: 1em;
+  }
+
+
+  #my-projects {
+      display: flex;
+      flex-direction: column;
+  }
+}
