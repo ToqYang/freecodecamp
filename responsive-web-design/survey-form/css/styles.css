@@ -1,0 +1,102 @@
+body {
+    background-image: url("../images/meme.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+#header {
+    color: black;
+}
+
+#header {
+    text-align: center;
+}
+
+#survey {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 5%;
+    background-color: hsla(0, 0%, 0%, 0.30);
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+}
+
+#first > input {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+}
+
+input, select, option {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+}
+
+#name-label, #email-label, #number-label {
+    margin-bottom: 1%;
+}
+
+#name, #email, #number {
+    margin-bottom: 4%;
+}
+
+#first {
+    display: flex;
+    flex-direction: column;
+}
+
+#two {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset > input {
+    transform: scale(1.5);
+}
+
+fieldset > label {
+    margin-left: 2%;
+}
+
+#radio-button input, #checkbox-button input {
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 14px;
+}
+
+#submit {
+    background-color: tomato;
+    color: white;
+}

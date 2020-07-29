@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="main">
+            <div id="header">
+                <h1 id="title">Covid-19 Survey</h1>
+                <p id="description">Follow your symptoms inside your weeks</p>
+            </div>
+
+            <div id="survey">
+                <form id="survey-form">
+                    <div id="first">
+                        <label for="name" id="name-label">Name</label> <br>
+                        <input id="name" type="text" name="name" placeholder="Enter your name" required=""> <br>
+                        <label for="email" id="email-label">E-mail</label> <br>
+                        <input id="email" type="email" name="email" placeholder="Enter your e-mail" required=""> <br>
+                        <label for="number" id="number-label">Age</label> <br>
+                        <input id="number" type="number" name="age" min="18" max="60" placeholder="Enter your age"> <br>
+
+                        <label for="dropdown">Pre-existing Conditions</label> <br>
+                        <select name="conditions" id="dropdown" placeholder="">
+                            <option value="" selected disabled hidden>Choose Option</option>
+                            <option value="respiratory">Asthma, Epoc, Bronchitis </option>
+                            <option value="cardiovascular">Arrhythmia, HTA, Coronary heart disease</option>
+                            <option value="gastrointestinal">(IBS), Constipation</option>
+                        </select>
+                    </div>
+                    <br> <br> <br>
+                    <div id="two">
+                        <p>Symptoms</p>
+                        <fieldset id="radio-button">
+                            <input type="radio" name="symptoms" id="fever" value="fever">
+                            <label for="fever">Fever</label> <br> <br>
+
+                            <input type="radio" name="symptoms" id="cough" value="cough">
+                            <label for="cough">Cough</label> <br> <br>
+
+                            <input type="radio" name="symptoms" id="tiredness" value="tiredness">
+                            <label for="tiredness">Tiredness</label> <br> <br>
+                        </fieldset>
+
+                        <fieldset id="checkbox-button">
+                            <input type="checkbox" name="symptoms" id="headache" value="headache">
+                            <label for="headache">Headache</label> <br> <br>
+
+                            <input type="checkbox" name="symptoms" id="diarrhoea" value="diarrhoea">
+                            <label for="diarrhoea">Diarrhoea</label> <br> <br>
+
+                            <input type="checkbox" name="symptoms" id="conjunctivitis" value="conjunctivitis">
+                            <label for="conjunctivitis">Conjunctivitis</label> <br> <br>
+                        </fieldset>
+                    </div>
+
+                    <div id="third">
+                        <p>More..</p>
+                        <textarea name="comment" id="extra" cols="30" rows="10" placeholder="Enter some ask more">Enter your comments</textarea> 
+                        <br>
+                    </div>
+
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </form>
+        </div>
+       <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
