@@ -1,5 +1,5 @@
 # :colombia: Build a Survey Form
-![Survey](final.png)
+![Survey](final.jpg)
 
 ## Prerequisites
 - Editors: vi, vim, emacs, VSCode, Atom
