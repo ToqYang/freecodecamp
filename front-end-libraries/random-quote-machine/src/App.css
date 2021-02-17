@@ -1,0 +1,69 @@
+#background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: gray;
+}
+
+#quote-box {
+  padding: 60px 60px;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+#quotes-logo {
+  margin-right: 10px;
+}
+
+#phrase {
+  display: flex;
+}
+
+#text {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+#author {
+  align-self: flex-end;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  width: 120px;
+}
+
+.logo__icon {
+  float: left;
+  padding: 8px 10px;
+  background-color: gray;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.logo__icon:hover,
+#new-quote:hover {
+  opacity: 0.5;
+}
+
+#new-quote {
+  padding: 8px 10px;
+  background-color: gray;
+  border-radius: 10px;
+  border: 1px;
+  color: white;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanalei&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ecf0f1;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculator {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  height: 420px;
+  width: 240px;
+}
+
+.display {
+  position: relative;
+  color: white;
+  font-size: 32px;
+  width: 100%;
+  padding: 20px 10px;
+  text-align: right;
+  height: 60px;
+}
+
+.display small {
+  position: absolute;
+  color: #ee9406;
+  top: 5px;
+  right: 5px;
+  font-size: 12px;
+}
+
+.nums-container {
+  width: 75%;
+}
+
+.ops-container {
+  width: 25%;
+}
+
+button {
+  border: none;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+button.big-h {
+  height: 110px;
+  border-radius: 50px;
+}
+
+button.big-v {
+  width: 110px;
+  border-radius: 50px;
+}
+
+button.orange {
+  background-color: #ee9406;
+  color: #fff;
+}
+
+button.dark-grey {
+  background-color: #323232;
+  color: #fff;
+}
+
+button.light-grey {
+  background-color: #a5a5a5;
+}
+
+button.ac {
+  margin-right: 50%;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+button:focus {
+  outline: none;
+}

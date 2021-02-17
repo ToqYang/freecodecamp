@@ -1,0 +1,102 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+  border: solid #5b6dcd 10px;
+  padding: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+div[id^="title"] > * {
+  margin-left: 5px;
+}
+
+#editor {
+  overflow-y: scroll;
+  width: 100%;
+}
+
+#preview {
+  background-color: ivory;
+  padding: 20px;
+}
+
+.pure-g {
+  min-width: 50%;
+  max-width: 50%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: ghostwhite;
+}
+
+#title-editor,
+#title-preview {
+  border-radius: 0.2em;
+  color: white;
+}
+
+#title-editor {
+  background-color: cornflowerblue;
+}
+
+#title-preview {
+  background-color: red;
+}
+
+code,
+pre {
+  background-color: gold;
+}
+
+code {
+  overflow: auto;
+}
+
+blockquote {
+  border-left: 3px solid red;
+  color: black;
+  padding-inline: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid black;
+}
+
+table thead {
+  background-color: #e0e0e0;
+  color: #000;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+table th {
+  padding: 0.5em 1em;
+}
+
+table td,
+table th {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right-width: 0;
+  border-top-width: 0;
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .pure-g {
+    max-width: 100%;
+  }
+}

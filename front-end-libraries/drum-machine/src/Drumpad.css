@@ -1,0 +1,26 @@
+.drum-pad {
+  color: white;
+  height: 5rem;
+  width: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 0.8rem;
+}
+
+.drum-pad:hover {
+  opacity: 0.8;
+}
+
+.drum-click {
+  background-color: yellowgreen;
+  opacity: 0.5;
+}
+
+.drum-clicknot {
+  background-color: teal;
+  opacity: 1;
+}
